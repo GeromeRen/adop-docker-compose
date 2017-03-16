@@ -186,14 +186,7 @@ Note : For Windows run this command from a terminal (Git Bash) as administrator.
  * You should be able to see the spring petclinic application.
 * Now, you can clone the repository from gerrit and make a code change to see the example pipeline triggered automatically.
 
-# Define Default Elastic Search Index Pattern
 
-Kibana 4 does not provide a configuration property that allow to define the default index pattern so the following manual procedure should be adopted in order to define an index pattern:
-
-- Navidate to Settings > Indices using Kibana dashboard
-- Set index name or pattern as "logstash-\*"
-- For the below drop-down select @timestamp for the Time-field name
-- Click on create button
 
 # User Feedback
 

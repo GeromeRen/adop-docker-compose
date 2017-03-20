@@ -95,7 +95,6 @@ A basic pipeline should as a minimum have steps, where appropriate, for:
 
 More advanced pipelines may also include:
 
-* Automated functional tests -for example using Selenium
 * BDD-style automated functional tests
 * Performance tests - for example using JMeter or Gatling
 * Security tests

@@ -218,17 +218,6 @@ selenium-node-chrome:
     HUB_PORT_4444_TCP_ADDR: "selenium-hub"
     HUB_PORT_4444_TCP_PORT: "4444"
 
-selenium-node-firefox:
-  container_name: selenium-node-firefox
-  restart: always
-  image: selenium/node-firefox:2.53.0
-  net: ${CUSTOM_NETWORK_NAME}
-  environment:
-    SE_OPTS: "-nodeConfig /var/selenium-config/config-firefox.json"
-    REMOTE_HOST: "http://selenium-node-firefox:5555"
-    HUB_PORT_4444_TCP_ADDR: "selenium-hub"
-    HUB_PORT_4444_TCP_PORT: "4444"
-
 nexus:
   container_name: nexus
   restart: always
